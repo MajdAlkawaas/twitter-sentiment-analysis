@@ -136,7 +136,9 @@ We were trying to figure out what kind of results we will get by training BERT w
    5. Stemming (Using porter stemmer from NLTK)
 3. Fine tuned a pre trained BERT model from huggingface's transformers library (bert-base-cased)
 4. Added a custom classification layer which consisted of:
-   1. 
+   1. Dropout layer
+   2. linear layer
+   3. Sigmoid
 
 <br>
 
