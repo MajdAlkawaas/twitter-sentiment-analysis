@@ -9,7 +9,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <h3 align="center">Twitter sentiment analysis</h3>
@@ -23,8 +22,8 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+
+## Table of Contents
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -45,7 +44,6 @@
     <li><a href="#Results">Results</a></li>
     <li><a href="#Future work">Future work</a></li>
   </ol>
-</details>
 
 
 
