@@ -272,7 +272,7 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/MajdAlkawaas/twitter-sentiment-analysis.svg?style=for-the-badge
 [contributors-url]: https://github.com/MajdAlkawaas/twitter-sentiment-analysis/graphs/contributors
-\[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/majdalkawaas/
 [product-screenshot]: images/screenshot.png
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
