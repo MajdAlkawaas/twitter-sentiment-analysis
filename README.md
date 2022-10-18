@@ -16,7 +16,7 @@
   <p align="center">
     Twitter sentiment analysis using BERT contextual embeddings
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/MajdAlkawaas/twitter-sentiment-analysis/issues">Report Bug</a>
   </p>
 </div>
 
