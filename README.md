@@ -42,6 +42,7 @@
     <li><a href="#Method-and-approach">Method and approach</a></li>
     <li><a href="#Data">Data</a></li>
     <li><a href="#Results">Results</a></li>
+    <li><a href="#Results">Discussion</a></li>
     <li><a href="#Future-work">Future work</a></li>
     <li><a href="#Contributing">Contributing</a></li>
   </ol>
