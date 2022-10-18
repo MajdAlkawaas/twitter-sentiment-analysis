@@ -68,37 +68,12 @@ If you have any ideas or comments you would like to share with us our contact in
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- Installation instructions -->
-## Installation instructions 
-Create a python 3.8 virtual environment: ``` python3 -m venv <name_of_virtualenv>```
-Activate the virtual environment: ```source new_env/bin/activate```
-Install the standard Data science tools for python. <br>
-Additional libraries required. <br>
-Install manually
-```
-pip install nltk==3.7
-pip install torch==1.12.1
-pip install transformers==4.22.2
-```
-Install the packages given in the *requirements.txt*
-```
-pip install -r requirements.txt
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 
 <!-- Installation instructions  -->
 ## Installation instructions 
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
-Create a python 3.8 virtual environment: ``` python3 -m venv <name_of_virtualenv>```
+Create a python 3.8 virtual environment: ``` python3 -m venv <name_of_virtualenv>``` <br>
 Activate the virtual environment: ```source new_env/bin/activate``` <br>
 Install the standard Data science tools for python. <br>
 
@@ -108,8 +83,6 @@ pip install nltk==3.7
 pip install torch==1.12.1
 pip install transformers==4.22.2
 ```
-Install the packages given in the *requirements.txt*
-
 
 ### Installation
 Please follow the below provided steps
