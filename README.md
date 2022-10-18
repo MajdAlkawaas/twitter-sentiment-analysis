@@ -38,11 +38,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage-instructions">Usage instructions</a></li>
     <li><a href="#Method-and-approach">Method and approach</a></li>
     <li><a href="#Data">Data</a></li>
     <li><a href="#Results">Results</a></li>
-    <li><a href="#Future work">Future work</a></li>
+    <li><a href="#Future-work">Future work</a></li>
+    <li><a href="#Contributing">Contributing</a></li>
   </ol>
 
 
@@ -55,7 +56,7 @@ In the following readme file we are going to explain our approach, data and resu
 We are also providing a discussion regarding our results.
 If you have any ideas or comments you would like to share with us our contact information are in our profiles.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Built With
 
@@ -64,7 +65,10 @@ If you have any ideas or comments you would like to share with us our contact in
 <a href="#"> <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/scikit.svg'> </a>
 <a href="#"> <img width ='32px' src ='https://huggingface.co/front/assets/huggingface_logo-noborder.svg'> </a>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- Installation instructions -->
 ## Installation instructions 
 Create a python 3.8 virtual environment: ``` python3 -m venv <name_of_virtualenv>```
 Activate the virtual environment: ```source new_env/bin/activate```
@@ -94,7 +98,6 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
 Create a python 3.8 virtual environment: ``` python3 -m venv <name_of_virtualenv>```
 Activate the virtual environment: ```source new_env/bin/activate``` <br>
 Install the standard Data science tools for python. <br>
@@ -109,10 +112,8 @@ Install the packages given in the *requirements.txt*
 
 
 ### Installation
+Please follow the below provided steps
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
- 
 1. Clone the repo
    ```sh
    git clone https://github.com/MajdAlkawaas/twitter-sentiment-analysis.git
@@ -129,7 +130,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- Usage instructions -->
 ## Usage instructions
 
 After following the download instructions you can start with the following:
@@ -149,7 +150,7 @@ After following the download instructions you can start with the following:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
+<!-- Method and approach -->
 ## Method and approach
 We were trying to figure out what kind of results we will get by training BERT with a custom classification layer on multiple different small amounts of data and see how much the performance is going to improve with the extra data.
 
@@ -165,9 +166,17 @@ We were trying to figure out what kind of results we will get by training BERT w
    1. 
 
 <br>
-<img src='model_diagram.jpg'> 
-   
 
+<figure>
+<img src='model_diagram.jpg' alt="model diagram" style="width:100%">
+<figcaption align = "center"><b>Diagram of our model architecture</b></figcaption>
+</figure>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- Data -->
 ## Data
 
 We have combined multiple datasets to create a dataset of 1.76 Million tweets.
@@ -188,7 +197,10 @@ we are using a train 75%, val 12.5%, test 12.5% split
 
 The total number of tweets after removing the neutral class and nulls, Nan is
 1.7 Million tweets.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- Results -->
 ## Results
 
 We have trained the model multiple times using different amounts of data and hyperparameters the following table provides a summery.
@@ -199,7 +211,10 @@ We have trained the model multiple times using different amounts of data and hyp
 | 4      |0.01             |0.895           | 0.730               |0.732          | 0.758    |
 | 4      |0.05             |0.901           | 0.751               | 0.748         | 0.758    |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- Discussion -->
 ## Discussion
 
 Our results and approach suggests some questions that require a discussion
@@ -212,6 +227,18 @@ As we can see from the first row of the results that the model started to overfi
 
 ### Is BERT base the right way to do it?
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- Feature work -->
+## Future work
+- Test different classification layers (such as BiLSTM).
+- Detach the classification layer of the RoBERTa-sentiment-base (from huggingface) and try other classification layers with fine tuning.
+- Conduct further analysis of the performance metrics to make an informed decision regarding the current model
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -222,19 +249,12 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b <branch-name>`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Push to the Branch (`git push origin <branch-name>`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## Future work
-- Test different classification layers (such as BiLSTM).
-- Detach the classification layer of the RoBERTa-sentiment-base (from huggingface) and try other classification layers with fine tuning.
-- Conduct further analysis of the performance metrics to make an informed decision regarding the current model
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
