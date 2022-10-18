@@ -40,10 +40,10 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Method and approach">Method and approach</a></li>
+    <li><a href="#Data">Data</a></li>
+    <li><a href="#Results">Results</a></li>
+    <li><a href="#Future work">Future work</a></li>
   </ol>
 </details>
 
@@ -52,16 +52,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that 
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So 
-
-Use the `BLANK_README.md` to get started.
+This is a sentiment analysis project for tweets using BERT model and a custom classification layer.
+In the following readme file we are going to explain our approach, data and results.
+We are also providing a discussion regarding our results.
+If you have any ideas or comments you would like to share with us our contact information are in our profiles.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +120,7 @@ _Below is an example of how you can instruct your audience on installing and set
    git clone https://github.com/MajdAlkawaas/twitter-sentiment-analysis.git
    ```
 2. Download the datasets
-    1. Use the following link. 
+    1. Use the following <a href="https://drive.google.com/file/d/19XcCpR67zhhojsPXDaW4jXDOfL2RIcYj/view?usp=sharing">link</a>. 
     2. Extract the file in the same directory as the data_preprocessing.ipynb notebook
 3. Open the data_preprocessing.ipynb notebook 
     1. For downloading the jupyter notebook follow the instruction 
@@ -170,7 +164,7 @@ We were trying to figure out what kind of results we will get by training BERT w
    5. Stemming (Using porter stemmer from NLTK)
 3. Fine tuned a pre trained BERT model from huggingface's transformers library (bert-base-cased)
 4. Added a custom classification layer which consisted of:
-   1. BLAH
+   1. 
 
 <br>
 <img src='model_diagram.jpg'> 
@@ -238,33 +232,10 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Future work
+- Test different classification layers (such as BiLSTM).
+- Detach the classification layer of the RoBERTa-sentiment-base (from huggingface) and try other classification layers with fine tuning.
+- Conduct further analysis of the performance metrics to make an informed decision regarding the current model
 
 
 
