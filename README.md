@@ -33,14 +33,14 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Installation-instructions ">Installation instructions </a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#Method and approach">Method and approach</a></li>
+    <li><a href="#Method-and-approach">Method and approach</a></li>
     <li><a href="#Data">Data</a></li>
     <li><a href="#Results">Results</a></li>
     <li><a href="#Future work">Future work</a></li>
