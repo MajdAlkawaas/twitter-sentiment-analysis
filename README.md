@@ -198,9 +198,13 @@ Our results and approach suggests some questions that require a discussion
 As we can see from the first row of the results that the model started to overfit during the forth epoch nonetheless, it achieved the highest F1 score with 1% percent of the training data. The second and third training instances achieved similar results with 10 times or 2 times less data. These results suggests that for this specific model more data may not result in better results.
 
 ### Is the architecture of classification layer effective?
-
+- What other architectures that could result in a better results?
+- could our current architectures reach better results with more EPOCHs?
 
 ### Is BERT base the right way to do it?
+- We fine tuned bert-base-cased, could have gotten better results through fine tuning twitter BERT with the current classification layer?
+- Could we have gotten better results without fine tunning BERT but with training a more sophisticated classification layer?
+- Could we have gotten better results with using twitter BERT without fine tunning it but with training a more sophisticated classification layer?
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
